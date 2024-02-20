@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="index.js"></script>
+    <div id="ordernowbg">
+        <h1>Order now at FoodOnTheGo.</h1>
+        <h3>sign up to proceed</h3>
+    </div>
+    <div id="filloutform">
+      <form name="delivery" action="thankyou.html"
+      onsubmit="return validateform()" method="post">
+      <input type="text" id="name" name="name" placeholder="enter your name">
+      <input type="tel" id="phone"  name="phone"  placeholder="contact number">
+      <input type="text" id="address"  name="address"  placeholder="address for delivery">
+      <input type="submit" id="submit" value="confirm order">
+    </form>
+    </div>
+</body>
+</html>
